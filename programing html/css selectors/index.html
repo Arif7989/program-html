@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+    <style>
+        /* Element selectors */
+        div{
+            background-color: red;
+            color: yellow;
+        }
+        .red{
+            background-color: yellow;
+            color:red;
+        }
+          /* Id selector */
+        #green{
+            background-color: hotpink;
+            color:red;
+        }
+        /* child selector */
+        div > p{
+            background-color: black;
+            color:white;
+        }
+        /* descendant selector */
+        div p{
+            background-color: antiquewhite;
+            color: black;
+        }
+        /* for making margin padding we are using it is a universel selector* */
+        *{
+           margin: 0;
+           padding: 0;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: red;
+            /* it makes that when we visit the website it will make the link to see in red color */
+        }
+        a:link{
+            color: green;
+            /* /* it is used to make the link in green color;        */
+        }
+        a:hover{
+            background-color: red;
+            /* it makes the cursor movement on the link in red color/ */
+        }
+        a:active{
+            background-color: hotpink;
+            /* for clicking link it makes pink*/
+        }
+      
+    </style>
+</head>
+<body>
+    <div>
+        <!-- <article>this one not going to change</article> -->
+        <p>this is also a para</p>
+    </div>
+    <div class="red">
+        hello everyone Welcome all
+    </div>
+    <div>
+        hello guys how are you
+    </div>
+
+    <div id="green">
+        <p>this is going to change in child seclector </p>
+        this is another para
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.instagram.com">Go to instagram</a>
+</body>
+</html>

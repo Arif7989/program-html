@@ -1,0 +1,19 @@
+table{
+    background-color: thistle;
+}
+th{
+    background-color: hotpink;
+    color: black;
+}
+td{
+    background-color: aliceblue;
+}
+ol{
+    background-color: beige;
+}
+ul{
+    background-color: brown;
+}
+h1{
+    background-color: tomato;
+}

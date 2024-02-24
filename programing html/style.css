@@ -1,0 +1,30 @@
+    h1{
+        background-color: red;
+        color:yellow;
+    }
+    h2{
+        background-color: antiquewhite;
+        color: black;
+        height: 80%;
+        width: 20%;
+        padding : 20px
+    }
+    h3{
+        background-color:white;
+        color: gray;
+        border: 2px solid black;
+        padding:10px;
+        height: 50%;
+        width: 50%;
+        text-align: center;
+    }
+    h4{
+        background-color: aqua;
+        color: blur;
+        text-align:center;
+    }
+    h5{
+        background-color: bisque;
+        color:brown;
+        text-align: center;
+    }
